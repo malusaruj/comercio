@@ -12,7 +12,7 @@ public class LojaController {
 	@GetMapping("/listar")
 	public String listarProdutos() {
 		
-		return "produto";
+		return "produtos";
 		
 	}
 	
