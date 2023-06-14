@@ -14,4 +14,55 @@ public class Produto {
 	// da própria classe.
 	//  Entende-se por membros(atributos e ou métodos)
 	
+	// Métodos Setter's e Getter's: atribuir e recuperar dados do atributo "RESPECTIVAMENTE"
+	
+	public void setId(Long id) {
+		this.id = id;
+	}
+	
+	public Long getId() {
+		return id;
+	}
+	
+	public double getPreco() {
+		return preco;
+	}
+
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+
+	public String getCodigoBarras() {
+		return codigoBarras;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	public String getNome() {
+		return nome;
+	} 
+	
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+	
+	public String getDescricao() {
+		return descricao;
+	}
+	
+	public void setCodigoBarras(String codigoBarras) {
+		this.codigoBarras = codigoBarras;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
